@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="587d2dea-a8a4-4cf7-a5c1-9cf360f8c718" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="appetizer" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="FlutterView" splitter-proportion="0.41795665" />
+  <component name="ProjectId" id="1iliImZINiRE6heWojWIf7baVEC" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="PluginDummyText.Genre" value="cookery" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Android Projects\appetizer\assets\images" />
+      <recent name="D:\Android Projects\appetizer\assets\images\Lotties" />
+      <recent name="D:\Android Projects\appetizer\assets\images\aboutMe" />
+      <recent name="D:\Android Projects\appetizer\assets\images\ingredients" />
+      <recent name="D:\Android Projects\appetizer\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Android Projects\appetizer\assets\images" />
+      <recent name="D:\Android Projects\appetizer\assets\images\logo" />
+      <recent name="D:\Android Projects\appetizer\lib\Screens" />
+      <recent name="D:\Android Projects\appetizer\assets\images\ingredients" />
+      <recent name="D:\Android Projects\appetizer\lib\Screens\ProjectModel" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flutter.main.dart">
+    <configuration name="D:/Android Projects/appetizer/android/app/build.gradle (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/android/app/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="D:/Android Projects/appetizer/android/app/build.gradle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/android/app/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="D:/Android Projects/appetizer/android/build.gradle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/android/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.D:/Android Projects/appetizer/android/app/build.gradle (1)" />
+        <item itemvalue="Gradle.D:/Android Projects/appetizer/android/app/build.gradle" />
+        <item itemvalue="Gradle.D:/Android Projects/appetizer/android/build.gradle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="587d2dea-a8a4-4cf7-a5c1-9cf360f8c718" name="Default Changelist" comment="" />
+      <created>1602488501568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602488501568</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="286" y="164" key="#PSD" timestamp="1603646547382">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="286" y="164" key="#PSD/0.0.1536.864@0.0.1536.864" timestamp="1603646547382" />
+    <state x="384" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1604160469894">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="384" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1604160469894" />
+    <state x="444" y="357" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604162830199">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="444" y="357" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.864@0.0.1536.864" timestamp="1604162830199" />
+    <state x="343" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604243614697">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="343" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1604243614697" />
+    <state x="472" y="201" key="AndroidProcessChooserDialog" timestamp="1605197129741">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="472" y="201" key="AndroidProcessChooserDialog/0.0.1536.864@0.0.1536.864" timestamp="1605197129741" />
+    <state x="333" y="195" key="FileChooserDialogImpl" timestamp="1602782595437">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="333" y="195" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1602782595437" />
+    <state width="1491" height="236" key="GridCell.Tab.0.bottom" timestamp="1605515580621">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="236" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605515580621" />
+    <state width="1491" height="236" key="GridCell.Tab.0.center" timestamp="1605515580621">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="236" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1605515580621" />
+    <state width="1491" height="236" key="GridCell.Tab.0.left" timestamp="1605515580621">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="236" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1605515580621" />
+    <state width="1491" height="236" key="GridCell.Tab.0.right" timestamp="1605515580621">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="236" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1605515580621" />
+    <state x="121" y="82" key="SettingsEditor" timestamp="1605463659984">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="121" y="82" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1605463659984" />
+    <state x="-167" y="87" width="1024" height="655" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1605507801876">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="-167" y="87" width="1024" height="655" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.864@0.0.1536.864" timestamp="1605507801876" />
+    <state x="426" y="198" width="672" height="677" key="run.anything.popup" timestamp="1605512828132">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="426" y="198" width="672" height="677" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1605512828132" />
+    <state x="276" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1605463511225">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="276" y="186" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1605463511225" />
+  </component>
+</project>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Android Projects\\appetizer\\build\\cloud_firestore\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\appetizer\\build\\cloud_firestore\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\appetizer\\build\\cloud_firestore\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\color\\common_google_signin_btn_text_light.xml"
+    }
+]
