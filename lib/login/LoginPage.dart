@@ -1,3 +1,4 @@
+import 'package:appetizer/ProductPage/models/TimeProvider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
@@ -14,16 +15,17 @@ class _LoginPageState extends State<LoginPage> {
     await Navigator.of(context).pushNamed('/otp');
   }
 
-  GlobalKey <FormState> _phoneKey = GlobalKey<FormState>();
+  GlobalKey<FormState> _phoneKey = GlobalKey<FormState>();
 
   TextEditingController _controller = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
-    Size size = MediaQuery
-        .of(context)
-        .size;
+    Size size = MediaQuery.of(context).size;
+    var mainColor = Color(0xFF69021F);
+
     print(size.height);
+
     print(size.width);
     return Scaffold(
       body: SingleChildScrollView(
@@ -49,7 +51,7 @@ class _LoginPageState extends State<LoginPage> {
                                 blurRadius: 5,
                                 color: Colors.grey)
                           ],
-                          color: Color(0xFF69021F),
+                          color: mainColor,
                           fontSize: 50,
                           fontWeight: FontWeight.bold),
                     ),
@@ -63,7 +65,7 @@ class _LoginPageState extends State<LoginPage> {
                                 blurRadius: 5,
                                 color: Colors.grey)
                           ],
-                          color: Color(0xFF69021F),
+                          color: mainColor,
                           fontSize: 40,
                           fontWeight: FontWeight.bold),
                     ),
@@ -71,7 +73,8 @@ class _LoginPageState extends State<LoginPage> {
                 )),
             Positioned(
               bottom: 0,
-              child: Form(key:_phoneKey,
+              child: Form(
+                key: _phoneKey,
                 child: Container(
                   width: size.width,
                   height: size.height / 3,
@@ -89,7 +92,7 @@ class _LoginPageState extends State<LoginPage> {
                         Text(
                           'Login',
                           style: TextStyle(
-                              color: Color(0xFF69021F),
+                              color: mainColor,
                               fontSize: 30,
                               fontWeight: FontWeight.bold,
                               shadows: [
@@ -103,22 +106,23 @@ class _LoginPageState extends State<LoginPage> {
                         Spacer(),
                         Consumer<LoginProvider>(builder: (BuildContext context,
                             LoginProvider providervalue, Widget child) {
-                          return TextFormField(controller: _controller,
+                          return TextFormField(
+                            controller: _controller,
                             keyboardType: TextInputType.number,
                             style: TextStyle(
                                 color: providervalue.NumberLength
                                     ? Colors.black
-                                    : Color(0xFF69021F),
+                                    : mainColor,
                                 fontSize: 20,
                                 fontWeight: FontWeight.w500),
                             decoration: InputDecoration(
                                 prefixIcon: Icon(
                                   Icons.phone,
-                                  color: Color(0xFF69021F),
+                                  color: mainColor,
                                 ),
                                 hintText: 'Phone Number',
                                 hintStyle: TextStyle(
-                                    color: Color(0xFF69021F),
+                                    color: mainColor,
                                     fontWeight: FontWeight.normal)),
                             onChanged: (value) {
                               providervalue.phoneLength(value);
@@ -130,10 +134,13 @@ class _LoginPageState extends State<LoginPage> {
                             LoginProvider providervalue, Widget child) {
                           return FlatButton(
                               onPressed: () {
-                                print(_controller.text
-                                );
+                                print(_controller.text);
                                 if (providervalue.NumberLength) {
-                                  providervalue.verifyPhoneNumber(_controller.text);
+                                  providervalue
+                                      .verifyPhoneNumber(_controller.text);
+                                  OtpTimerProvider otpTimerProvider =
+                                  Provider.of<OtpTimerProvider>(context, listen: false);
+                                  otpTimerProvider.timer();
                                   otpNavigator(context);
                                 }
                               },
@@ -142,15 +149,15 @@ class _LoginPageState extends State<LoginPage> {
                                 height: 50,
                                 decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(30),
-                                    color: Color(0xFF69021F)),
+                                    color: mainColor),
                                 child: Center(
                                     child: Text(
-                                      'Submit',
-                                      style: TextStyle(
-                                          fontSize: 20,
-                                          fontWeight: FontWeight.bold,
-                                          color: Colors.white),
-                                    )),
+                                  'Submit',
+                                  style: TextStyle(
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.white),
+                                )),
                               ));
                         }),
                         Spacer()
@@ -165,6 +172,7 @@ class _LoginPageState extends State<LoginPage> {
       ),
     );
   }
+
   @override
   void dispose() {
     // TODO: implement dispose

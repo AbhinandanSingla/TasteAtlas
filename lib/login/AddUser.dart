@@ -13,7 +13,9 @@ class _AdduserState extends State<Adduser> {
   TextEditingController _firstnameController = TextEditingController();
   TextEditingController _surnameController = TextEditingController();
   TextEditingController _addressController = TextEditingController();
-
+goto()async{
+  await Navigator.pushNamed(context, '/home');
+}
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -130,7 +132,7 @@ class _AdduserState extends State<Adduser> {
                                       _firstnameController.text,
                                       _surnameController.text,
                                       _addressController.text);
-                                  Navigator.pushNamed(context, '/home');
+                                 goto();
                                   print('abc');
                                 }
                               },

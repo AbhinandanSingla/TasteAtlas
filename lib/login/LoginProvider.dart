@@ -9,7 +9,7 @@ class LoginProvider extends ChangeNotifier {
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
   User user;
-  bool NumberLength = false;
+  bool NumberLength = true;
   bool smsCode = true;
   String message;
   String verificationID;
@@ -48,7 +48,7 @@ print(PhoneNo);
 
     PhoneVerificationFailed verificationFailed =
         (FirebaseAuthException authException) async {
-      print('PhoneVerification');
+      print('PhoneVerification has failed ${authException}');
     };
 
     PhoneCodeSent codeSent =

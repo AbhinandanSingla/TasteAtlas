@@ -15,9 +15,6 @@ class _OtpPageState extends State<OtpPage> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    OtpTimerProvider otpTimerProvider =
-        Provider.of<OtpTimerProvider>(context, listen: false);
-    otpTimerProvider.timer();
   }
 
   TextEditingController _OtpController = TextEditingController();
@@ -132,10 +129,13 @@ class _OtpPageState extends State<OtpPage> {
                             (BuildContext context,
                                 OtpTimerProvider providervalue, Widget child) {
                           return Center(
-                              child: Text(
-                            'Resending Otp in ${providervalue.OtpTime.toString()}',
-                            style: TextStyle(color: Color(0xFF69021F)),
-                          ));
+                              child: providervalue.OtpTime == 0
+                                  ? Text('Otp Resending ')
+                                  : Text(
+                                      'Resending Otp in ${providervalue.OtpTime.toString()}',
+                                      style:
+                                          TextStyle(color: Color(0xFF69021F)),
+                                    ));
                         }),
                         Spacer(),
                         FlatButton(

@@ -20,6 +20,7 @@ class OtpTimerProvider extends ChangeNotifier {
       } else {
         Lock = false;
         OtpTimer.cancel();
+        OtpTime = 120;
       }
       notifyListeners();
     });

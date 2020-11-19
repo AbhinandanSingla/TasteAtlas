@@ -152,7 +152,6 @@ class CartProvider extends ChangeNotifier {
       });
       return total;
     }
-    notifyListeners();
   }
 
   Future placeOrder(User user) async {
@@ -199,16 +198,16 @@ class CartProvider extends ChangeNotifier {
           }
         });
       });
-      // await dio.get(
-      //     "https://gurubrahma-smsly-sms-to-india-v1.p.rapidapi.com/sms/transactional/${user.phoneNumber.substring(3)}/Thanks%20for%20Ordering%20from%20TasteAtlas.%0AOrder%20Details%20.....%0ATotal%20item%20%3D%20${cart.length}.%0ATotal%20Amount%20%3D%20$total%2C%0AYour%20order%20will%20be%20on%20your%20table%20within%20in%2020%20minutes..%0AHave%20a%20nice%20day",
-      //     options: Options(headers: {
-      //       "content-type": "application/xml",
-      //       "x-rapidapi-key":
-      //           "19d15ec7fcmshc65f9f710ed08c6p1eb495jsna131144d59a4",
-      //       "x-rapidapi-host":
-      //           "gurubrahma-smsly-sms-to-india-v1.p.rapidapi.com",
-      //       "useQueryString": true
-      //     }));
+      await dio.get(
+          "https://gurubrahma-smsly-sms-to-india-v1.p.rapidapi.com/sms/transactional/${user.phoneNumber.substring(3)}/Thanks%20for%20Ordering%20from%20TasteAtlas.%0AOrder%20Details%20.....%0ATotal%20item%20%3D%20${cart.length}.%0ATotal%20Amount%20%3D%20$total%2C%0AYour%20order%20will%20be%20on%20your%20table%20within%20in%2020%20minutes..%0AHave%20a%20nice%20day",
+          options: Options(headers: {
+            "content-type": "application/xml",
+            "x-rapidapi-key":
+                "19d15ec7fcmshc65f9f710ed08c6p1eb495jsna131144d59a4",
+            "x-rapidapi-host":
+                "gurubrahma-smsly-sms-to-india-v1.p.rapidapi.com",
+            "useQueryString": true
+          }));
       _firestore.collection('user').doc(user.uid.toString()).update({
         'currentOrder': FieldValue.arrayUnion([orderNumber.toString()])
       });

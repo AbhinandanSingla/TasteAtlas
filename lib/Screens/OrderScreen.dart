@@ -188,8 +188,9 @@ class _OrderScreenState extends State<OrderScreen> {
                 child: Container(
                   height: size.height,
                   color: Colors.white,
-                  child:
-                      Lottie.asset('assets/images/Lotties/cartAnimation.json'),
+                  child: Lottie.asset(
+                      'assets/images/Lotties/cartAnimation.json',
+                      width: size.width - 60),
                 ),
               );
             },

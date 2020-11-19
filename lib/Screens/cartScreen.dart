@@ -515,11 +515,11 @@ class CartSplash extends StatelessWidget {
           children: [
             Text(
               'Processeding your Please wait...',
-              style: TextStyle(color: Color(0xff4B9DB5), fontSize: 30),
+              style: TextStyle(color: Color(0xff4B9DB5), fontSize: 15),
             ),
             Center(
                 child: Lottie.asset(
-              'assets/images/Lotties/OrderCooking.json',
+              'assets/images/Lotties/OrderCooking.json',width: size.width*0.5
             )),
           ],
         ),

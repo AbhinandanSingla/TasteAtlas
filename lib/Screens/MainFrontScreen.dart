@@ -260,13 +260,13 @@ class _MainFrontScreenState extends State<MainFrontScreen> {
                         maxCrossAxisExtent: 300,
                         mainAxisSpacing: 20,
                         crossAxisSpacing: 14,
-                        childAspectRatio: 0.87, //
+                        childAspectRatio: size.width / (size.height * 0.6), //
                       ),
                       delegate: SliverChildBuilderDelegate(
                         (BuildContext context, int index) {
                           return GestureDetector(
                             onTap: () {
-                              print(categoryModel.GridFood[index].name);
+                              print(categoryModel.GridFood[index].id);
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
@@ -277,6 +277,7 @@ class _MainFrontScreenState extends State<MainFrontScreen> {
                               );
                             },
                             child: Container(
+                              height: size.height * 0.25,
                               decoration: BoxDecoration(
                                   color: Colors.white,
                                   borderRadius: BorderRadius.circular(20),
@@ -290,11 +291,11 @@ class _MainFrontScreenState extends State<MainFrontScreen> {
                               child: Column(
                                 children: [
                                   Container(
-                                    height: 170,
+                                    height: size.height * 0.25,
                                     child: Stack(
                                       children: [
                                         Container(
-                                          height: 160,
+                                          height: size.height * 0.23,
                                           child: ClipRRect(
                                               borderRadius: BorderRadius.only(
                                                   topLeft: Radius.circular(20),
@@ -317,59 +318,61 @@ class _MainFrontScreenState extends State<MainFrontScreen> {
                                         Positioned(
                                           top: 10,
                                           left: 10,
-                                          child: Row(
-                                            mainAxisAlignment:
-                                                MainAxisAlignment.spaceBetween,
-                                            children: [
-                                              LikeButton(
-                                                size: 23,
-                                                likeBuilder: (bool isLiked) {
-                                                  return Image.asset(
-                                                    'assets/images/ingredients/heart_like_love_twitter_icon_127132.png',
-                                                    color: isLiked
-                                                        ? Colors.pink
-                                                        : Colors.white,
-                                                  );
-                                                },
-                                              ),
-                                              SizedBox(
-                                                width: 60,
-                                              ),
-                                              Container(
-                                                width: 60,
-                                                height: 25,
-                                                decoration: BoxDecoration(
-                                                    borderRadius:
-                                                        BorderRadius.circular(
-                                                            20),
-                                                    color: Colors.white),
-                                                child: Center(
-                                                    child: RichText(
-                                                  text: TextSpan(children: [
-                                                    TextSpan(
-                                                        text: 'Rs',
-                                                        style: TextStyle(
-                                                            fontSize: 10,
-                                                            color: Colors
-                                                                .deepOrangeAccent,
-                                                            fontWeight:
-                                                                FontWeight
-                                                                    .bold)),
-                                                    TextSpan(
-                                                        text: categoryModel
-                                                            .GridFood[index]
-                                                            .price
-                                                            .toString(),
-                                                        style: TextStyle(
-                                                            fontSize: 13,
-                                                            color: Colors.black,
-                                                            fontWeight:
-                                                                FontWeight
-                                                                    .bold))
-                                                  ]),
-                                                )),
-                                              ),
-                                            ],
+                                          child: Container(
+                                            width: size.width / 2 - 30,
+                                            child: Row(
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment
+                                                      .spaceBetween,
+                                              children: [
+                                                LikeButton(
+                                                  size: 23,
+                                                  likeBuilder: (bool isLiked) {
+                                                    return Image.asset(
+                                                      'assets/images/ingredients/heart_like_love_twitter_icon_127132.png',
+                                                      color: isLiked
+                                                          ? Colors.pink
+                                                          : Colors.white,
+                                                    );
+                                                  },
+                                                ),
+                                                Container(
+                                                  width: 60,
+                                                  height: 25,
+                                                  decoration: BoxDecoration(
+                                                      borderRadius:
+                                                          BorderRadius.circular(
+                                                              20),
+                                                      color: Colors.white),
+                                                  child: Center(
+                                                      child: RichText(
+                                                    text: TextSpan(children: [
+                                                      TextSpan(
+                                                          text: 'Rs',
+                                                          style: TextStyle(
+                                                              fontSize: 10,
+                                                              color: Colors
+                                                                  .deepOrangeAccent,
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .bold)),
+                                                      TextSpan(
+                                                          text: categoryModel
+                                                              .GridFood[index]
+                                                              .price
+                                                              .toString(),
+                                                          style: TextStyle(
+                                                              fontSize: 13,
+                                                              color:
+                                                                  Colors.black,
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .bold))
+                                                    ]),
+                                                  )),
+                                                ),
+                                              ],
+                                            ),
                                           ),
                                         ),
                                         Positioned(
@@ -457,7 +460,7 @@ class _FeaturedDataState extends State<FeaturedData> {
                               fontFamily: 'Montserrat'),
                         )),
                         decoration: BoxDecoration(
-                          color: Colors.yellow,
+                          color: Colors.deepOrange,
                           borderRadius: BorderRadius.circular(10),
                         ),
                       ),

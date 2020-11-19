@@ -52,10 +52,11 @@ class TopContainer implements SliverPersistentHeaderDelegate {
                       drawerProvider.toggleSwitch();
                       print('clicking ');
                     },
-                      child: Container(
+                      child: Consumer<DrawerProvider>(builder: (BuildContext context,
+                          DrawerProvider value, Widget child)=>Container(
                         width: 35,
                         height: 35,
-                        child: drawerProvider.toggle?Image.asset(
+                        child: value.toggle?Image.asset(
                           'assets/images/ic-back_97586.png',color: Colors.deepOrange,
                           scale: 2,
                         ):Image.asset(
@@ -65,6 +66,7 @@ class TopContainer implements SliverPersistentHeaderDelegate {
                         decoration: BoxDecoration(
                             color: Colors.white.withOpacity(0.94),
                             borderRadius: BorderRadius.circular(10)),
+                      ),
                       ),
                     ),
                     Spacer(
