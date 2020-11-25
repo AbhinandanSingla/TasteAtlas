@@ -1,16 +1,9 @@
-# appetizer
+<a href="https://github.com/deepusingla0448/ZoomAutomation/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/deepusingla0448/ZoomAutomation"></a>
+<a href="https://github.com/deepusingla0448/ZoomAutomation/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/deepusingla0448/ZoomAutomation"></a>
+<a href="https://www.instagram.com/_.abhi_singla_/"><img alt="Instagram" src="https://img.shields.io/badge/join-instragram-ff69b4"></a>
 
-A new Flutter application.
+# TasteAtlas Food App
+### This is a food ordering app.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### A little view of our app
+<img alt = 'image is loading .. ' src='https://github.com/AbhinandanSingla/TasteAtlas/blob/main/md/main.gif' height = '300'>
