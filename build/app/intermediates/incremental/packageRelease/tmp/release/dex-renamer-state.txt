@@ -1,4 +1,4 @@
-#Thu Nov 19 23:59:00 IST 2020
+#Wed Nov 25 13:28:02 IST 2020
 base.0=D\:\\Android Projects\\appetizer\\build\\app\\intermediates\\transforms\\r8\\release\\0\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

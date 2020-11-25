@@ -24,18 +24,18 @@ class MainScreenProvider extends ChangeNotifier {
   Future images;
   Future GridContainer;
 
-bool dataLoaded = true;
+  bool dataLoaded = true;
 
   loadAllData() async {
     await getProducts(); // It will load all our product to products list
     print("First await done");
-    await getUrl(); // After loading product we will modify url properties of the product list fetch in first step
-    print("Second await done");
+    // await getUrl(); // After loading product we will modify url properties of the product list fetch in first step
+    // print("Second await done");
     await getCategory(); // then we'll load all our categories
     print("Third await done");
     //return categoryList;
 
-    categoryData  = abc();
+    categoryData = abc();
     GridContainer = convertCategory('Burger');
     dataLoaded = false;
   }
@@ -59,48 +59,64 @@ bool dataLoaded = true;
                   desc: value['desc'],
                   max: value['max'],
                   min: value['min'],
-                  rating: value['rating'],
+                  rating: value['rating'].toString(),
                   isFirstTime: true,
                   tags: value['tag'],
                   quantity: 0));
+              Basket.add(BasketModel(
+                  id: key.toString(),
+                  quantity: 0,
+                  name: value['name'],
+                  isFirstTime: true));
+              tagList.add(tagModel(
+                  price: value['price'],
+                  id: key.toString(),
+                  priority: 0,
+                  tag: value['tag'],
+                  name: value['name'],
+                  rating: value['rating'].toString(),
+                  isFirstTime: true,
+                  url: value['url']));
+              print(Basket);
             }));
 
     return products;
   }
 
-  getUrl() async {
-    try{
-      for (int i = 0; i < products.length; i++) {
-        try{
-          await _reference.child(products[i].url).getDownloadURL().then((value) {
-            print(products[i].url);
-            products[i].url = value;
-            Basket.add(BasketModel(
-                id: products[i].id,
-                quantity: 0,
-                name: products[i].name,
-                isFirstTime: true));
-          });
-        }catch(e){
-          print('${e} +++++++++++++++++++ ${products[i].url}');
-        }
+  // //
+  // getUrl() async {
+  //   try {
+  //     for (int i = 0; i < products.length; i++) {
+  //       try {
+  //         await _reference
+  //             .child(products[i].url)
+  //             .getDownloadURL()
+  //             .then((value) {
+  //           print(products[i].url);
+  //           _firestore.collection('menu').doc('Products').update({
+  //             products[i].id: {'url': value}
+  //           });
+  //
+  //         });
+  //       } catch (e) {
+  //         print('${e} +++++++++++++++++++ ${products[i].url}');
+  //       }
 
-        tagList.add(tagModel(
-            price: products[i].price,
-            id: products[i].id,
-            priority: 0,
-            tag: products[i].tags,
-            name: products[i].name,
-            rating: products[i].rating,isFirstTime: products[i].isFirstTime,
-            url: products[i].url));
-        print(Basket);
-      }
-    }catch(e){
-
-      print('$e++++++++++++++++++++++++++++++++++++');
-    }
-
-  } // also created a duplicate basket list which will help in cart UI
+  //       tagList.add(tagModel(
+  //           price: products[i].price,
+  //           id: products[i].id,
+  //           priority: 0,
+  //           tag: products[i].tags,
+  //           name: products[i].name,
+  //           rating: products[i].rating,
+  //           isFirstTime: products[i].isFirstTime,
+  //           url: products[i].url));
+  //       print(Basket);
+  //     }
+  //   } catch (e) {
+  //     print('$e++++++++++++++++++++++++++++++++++++');
+  //   }
+  // } // also created a duplicate basket list which will help in cart UI
 
   getCategory() async {
     category.clear();
