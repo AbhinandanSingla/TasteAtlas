@@ -4,12 +4,16 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="587d2dea-a8a4-4cf7-a5c1-9cf360f8c718" name="Default Changelist" comment="" />
+    <list default="true" id="587d2dea-a8a4-4cf7-a5c1-9cf360f8c718" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3a_XL_API_30" />
   <component name="FavoritesManager">
     <favorites_list name="appetizer" />
   </component>
@@ -22,6 +26,9 @@
     </option>
   </component>
   <component name="FlutterView" splitter-proportion="0.41795665" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1iliImZINiRE6heWojWIf7baVEC" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
@@ -35,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="E:/Markboot3-10-2020-master/Markboot3-10-2020-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -176,10 +183,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="121" y="82" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1605463659984" />
-    <state x="-167" y="87" width="1024" height="655" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1606290714439">
+    <state x="-167" y="87" width="1024" height="655" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1607447423011">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="-167" y="87" width="1024" height="655" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.864@0.0.1536.864" timestamp="1606290714439" />
+    <state x="-167" y="87" width="1024" height="655" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.864@0.0.1536.864" timestamp="1607447423011" />
     <state x="426" y="198" width="672" height="677" key="run.anything.popup" timestamp="1605512828132">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
