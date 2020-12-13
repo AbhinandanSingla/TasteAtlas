@@ -518,9 +518,8 @@ class CartSplash extends StatelessWidget {
               style: TextStyle(color: Color(0xff4B9DB5), fontSize: 15),
             ),
             Center(
-                child: Lottie.asset(
-              'assets/images/Lotties/OrderCooking.json',width: size.width*0.5
-            )),
+                child: Lottie.asset('assets/images/Lotties/OrderCooking.json',
+                    width: size.width * 0.5)),
           ],
         ),
       ),

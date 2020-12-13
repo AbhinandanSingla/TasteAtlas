@@ -7,13 +7,14 @@
     <list default="true" id="587d2dea-a8a4-4cf7-a5c1-9cf360f8c718" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Screens/cartScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Screens/cartScreen.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3a_XL_API_30" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_XL_API_30" />
   <component name="FavoritesManager">
     <favorites_list name="appetizer" />
   </component>
@@ -136,7 +137,19 @@
       <option name="presentableId" value="Default" />
       <updated>1602488501568</updated>
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1607531866933</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607531866933</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="286" y="164" key="#PSD" timestamp="1603646547382">
@@ -159,10 +172,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="472" y="201" key="AndroidProcessChooserDialog/0.0.1536.864@0.0.1536.864" timestamp="1605197129741" />
-    <state x="333" y="195" key="FileChooserDialogImpl" timestamp="1606214208827">
+    <state x="424" y="30" key="CommitChangelistDialog2" timestamp="1607531864475">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="333" y="195" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1606214208827" />
+    <state x="424" y="30" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1607531864475" />
+    <state x="333" y="195" key="FileChooserDialogImpl" timestamp="1607850279551">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="333" y="195" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1607850279551" />
     <state width="1491" height="217" key="GridCell.Tab.0.bottom" timestamp="1606291115528">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -183,14 +200,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="121" y="82" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1605463659984" />
-    <state x="-167" y="87" width="1024" height="655" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1607447423011">
+    <state x="-167" y="87" width="1024" height="655" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1607869530695">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="-167" y="87" width="1024" height="655" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.864@0.0.1536.864" timestamp="1607447423011" />
-    <state x="426" y="198" width="672" height="677" key="run.anything.popup" timestamp="1605512828132">
+    <state x="-167" y="87" width="1024" height="655" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.864@0.0.1536.864" timestamp="1607869530695" />
+    <state x="426" y="198" width="672" height="677" key="run.anything.popup" timestamp="1607531908742">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="426" y="198" width="672" height="677" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1605512828132" />
+    <state x="426" y="198" width="672" height="677" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1607531908742" />
     <state x="276" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1605463511225">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
