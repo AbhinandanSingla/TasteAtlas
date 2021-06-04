@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Android Projects\\appetizer\\build\\app\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "outputFile": "E:\\Github\\TasteAtlas\\build\\app\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "D:\\Android Projects\\appetizer\\build\\app\\generated\\res\\google-services\\release\\values\\values.xml",
+                    "source": "E:\\Github\\TasteAtlas\\build\\app\\generated\\res\\google-services\\release\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -18,6 +18,25 @@
                         "startOffsets": "7730,7874,7984,8066,8170,8279,8399,8498",
                         "endColumns": "143,109,81,103,108,119,98,75",
                         "endOffsets": "7869,7979,8061,8165,8274,8394,8493,8569"
+                    }
+                },
+                {
+                    "source": "E:\\Github\\TasteAtlas\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "176,830",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "472,996"
+                    },
+                    "to": {
+                        "startLines": "113,118",
+                        "startColumns": "4,4",
+                        "startOffsets": "8645,8942",
+                        "endLines": "117,120",
+                        "endColumns": "12,12",
+                        "endOffsets": "8937,9106"
                     }
                 },
                 {
@@ -37,25 +56,6 @@
                         "endLines": "2,3,4,5,6,7,8,9,86,87,88,89,90,91,92,93,95,96,97,98,99,100,101,102,103,272,291",
                         "endColumns": "89,79,89,89,79,80,79,79,104,180,124,106,179,122,115,102,187,104,180,124,174,147,62,61,78,20,20",
                         "endOffsets": "190,270,360,450,530,611,691,771,5497,5678,5803,5910,6090,6213,6329,6432,6787,6892,7073,7198,7373,7521,7584,7646,7725,17724,18141"
-                    }
-                },
-                {
-                    "source": "D:\\Android Projects\\appetizer\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "176,830",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "472,996"
-                    },
-                    "to": {
-                        "startLines": "113,118",
-                        "startColumns": "4,4",
-                        "startOffsets": "8645,8942",
-                        "endLines": "117,120",
-                        "endColumns": "12,12",
-                        "endOffsets": "8937,9106"
                     }
                 },
                 {

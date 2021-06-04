@@ -6,6 +6,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 
 class CartProvider extends ChangeNotifier {
+  List wishlist = [];
   List basket =
       []; // this list will contain the id along with the quantity of the each item to be added
   List cart = [];
@@ -16,6 +17,17 @@ class CartProvider extends ChangeNotifier {
   //int quantity = 1;
   Dio dio = Dio();
   bool sucess = false;
+
+  wishlistStartup(User user) {
+    if (user != null) {
+      _firestore
+          .collection('user')
+          .doc(user.uid.toString())
+          .get()
+          .then((value) => wishlist = value.get('wishlist'));
+    }
+    print('$wishlist  ssssssssssssssss');
+  }
 
   firstTime(int index, FeaturedItem item) {
     bool check1 = true;
@@ -109,7 +121,6 @@ class CartProvider extends ChangeNotifier {
             print(cart);
             print('list is empty');
           }
-
           notifyListeners();
         }
       }
@@ -162,9 +173,7 @@ class CartProvider extends ChangeNotifier {
     await _firestore.collection('orderIds').get().then((value) {
       orderNumber = 9600 + value.docs.length + 1;
     });
-    await _firestore.collection('orderIds').add({
-      orderNumber.toString():''
-    });
+    await _firestore.collection('orderIds').add({orderNumber.toString(): ''});
     await _firestore
         .collection('currentOrder')
         .doc(orderNumber.toString())
@@ -198,16 +207,18 @@ class CartProvider extends ChangeNotifier {
           }
         });
       });
-      await dio.get(
-          "https://gurubrahma-smsly-sms-to-india-v1.p.rapidapi.com/sms/transactional/${user.phoneNumber.substring(3)}/Thanks%20for%20Ordering%20from%20TasteAtlas.%0AOrder%20Details%20.....%0ATotal%20item%20%3D%20${cart.length}.%0ATotal%20Amount%20%3D%20$total%2C%0AYour%20order%20will%20be%20on%20your%20table%20within%20in%2020%20minutes..%0AHave%20a%20nice%20day",
-          options: Options(headers: {
-            "content-type": "application/xml",
-            "x-rapidapi-key":
-                "19d15ec7fcmshc65f9f710ed08c6p1eb495jsna131144d59a4",
-            "x-rapidapi-host":
-                "gurubrahma-smsly-sms-to-india-v1.p.rapidapi.com",
-            "useQueryString": true
-          }));
+      await dio
+          .get(
+              "https://gurubrahma-smsly-sms-to-india-v1.p.rapidapi.com/sms/transactional/${user.phoneNumber.substring(3)}/Thanks%20for%20Ordering%20from%20TasteAtlas.%0AOrder%20Details%20.....%0ATotal%20item%20%3D%20${cart.length}.%0ATotal%20Amount%20%3D%20$total%2C%0AYour%20order%20will%20be%20on%20your%20table%20within%20in%2020%20minutes..%0AHave%20a%20nice%20day",
+              options: Options(headers: {
+                "content-type": "application/xml",
+                "x-rapidapi-key":
+                    "19d15ec7fcmshc65f9f710ed08c6p1eb495jsna131144d59a4",
+                "x-rapidapi-host":
+                    "gurubrahma-smsly-sms-to-india-v1.p.rapidapi.com",
+                "useQueryString": true
+              }))
+          .then((value) => print('message has been sent $value'));
       _firestore.collection('user').doc(user.uid.toString()).update({
         'currentOrder': FieldValue.arrayUnion([orderNumber.toString()])
       });
@@ -217,5 +228,46 @@ class CartProvider extends ChangeNotifier {
     screenDisable = false;
     notifyListeners();
     return sucess;
+  }
+
+  wishlistLiked(bool isLiked, User user, String productID) {
+    if (user == null) {
+      if (wishlist.contains(productID)) {
+        print('added in removed box');
+        wishlist.remove(productID);
+      } else {
+        if (!isLiked) {
+          print('added in liked box');
+          wishlist.add(productID);
+        } else {
+          wishlist.remove(productID);
+        }
+      }
+    } else {
+      if (wishlist.contains(productID)) {
+        print('added in removed box');
+
+        wishlist.remove(productID);
+        _firestore.collection('user').doc(user.uid.toString()).update({
+          'wishlist': FieldValue.arrayRemove([productID])
+        });
+      } else {
+        if (!isLiked) {
+          print('added in liked box');
+          wishlist.add(productID);
+          _firestore.collection('user').doc(user.uid.toString()).update({
+            'wishlist': FieldValue.arrayUnion([productID])
+          });
+        } else {
+          print('added in removed box');
+
+          wishlist.remove(productID);
+          _firestore.collection('user').doc(user.uid.toString()).update({
+            'wishlist': FieldValue.arrayRemove([productID])
+          });
+        }
+      }
+    }
+    print('i am a function that was call on a call $isLiked $user $productID');
   }
 }

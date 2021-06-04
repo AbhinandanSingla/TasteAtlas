@@ -1,9 +1,29 @@
+import 'dart:math';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 
 class OrderScreenProvider extends ChangeNotifier {
   bool sucessDelivered = false;
   FirebaseFirestore _firestore = FirebaseFirestore.instance;
+
+  order() {
+    _firestore.collection('collectionPath').doc().set({
+      'uid': '',
+      'username': '',
+      'services': {'wash': '123'},
+      'total price': '',
+      'otp': '',
+      'pickup': true,
+      'vehicle name': '',
+      'vehicle brand': '',
+      'vehicle model': '',
+      'address': {'address': "", 'pincode': ''},
+      'additional charges': '',
+      'phoneNo': '',
+    });
+  }
+
 
   delivered(String orderId, String uid, Map productList) async {
     sucessDelivered = true;
@@ -18,6 +38,7 @@ class OrderScreenProvider extends ChangeNotifier {
         .update({uid: productList});
     String date =
         '${DateTime.now().day.toString()}|${DateTime.now().month.toString()}|${DateTime.now().year.toString()}';
+
     await _firestore.collection('orderHistory').doc(date).update({
       orderId: {uid: productList}
     }).catchError((e) {

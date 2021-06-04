@@ -1,74 +1,74 @@
 [
     {
-        "merged": "D:\\Android Projects\\appetizer\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_light_normal.xml",
-        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
-    },
-    {
-        "merged": "D:\\Android Projects\\appetizer\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "merged": "E:\\Github\\TasteAtlas\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
         "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
     },
     {
-        "merged": "D:\\Android Projects\\appetizer\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_disabled.xml",
-        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
-    },
-    {
-        "merged": "D:\\Android Projects\\appetizer\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
-        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
-    },
-    {
-        "merged": "D:\\Android Projects\\appetizer\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_dark_focused.xml",
-        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
-    },
-    {
-        "merged": "D:\\Android Projects\\appetizer\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "D:\\Android Projects\\appetizer\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_dark_normal.xml",
-        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
-    },
-    {
-        "merged": "D:\\Android Projects\\appetizer\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_light_normal.xml",
-        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
-    },
-    {
-        "merged": "D:\\Android Projects\\appetizer\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "D:\\Android Projects\\appetizer\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_disabled.xml",
-        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
-    },
-    {
-        "merged": "D:\\Android Projects\\appetizer\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "merged": "E:\\Github\\TasteAtlas\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_light_focused.xml",
         "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
     },
     {
-        "merged": "D:\\Android Projects\\appetizer\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+        "merged": "E:\\Github\\TasteAtlas\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
+        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
     },
     {
-        "merged": "D:\\Android Projects\\appetizer\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\fdb7f764bae631c34cad86862de08b65\\core-1.1.0\\res\\drawable\\notification_bg.xml"
+        "merged": "E:\\Github\\TasteAtlas\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_disabled.xml",
+        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
     },
     {
-        "merged": "D:\\Android Projects\\appetizer\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+        "merged": "E:\\Github\\TasteAtlas\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_light_normal.xml",
+        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
     },
     {
-        "merged": "D:\\Android Projects\\appetizer\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\fdb7f764bae631c34cad86862de08b65\\core-1.1.0\\res\\drawable\\notification_bg_low.xml"
+        "merged": "E:\\Github\\TasteAtlas\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
-        "merged": "D:\\Android Projects\\appetizer\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_light_focused.xml",
-        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
-    },
-    {
-        "merged": "D:\\Android Projects\\appetizer\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\notification_tile_bg.xml",
+        "merged": "E:\\Github\\TasteAtlas\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\notification_tile_bg.xml",
         "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\fdb7f764bae631c34cad86862de08b65\\core-1.1.0\\res\\drawable\\notification_tile_bg.xml"
     },
     {
-        "merged": "D:\\Android Projects\\appetizer\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\notification_icon_background.xml",
+        "merged": "E:\\Github\\TasteAtlas\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "E:\\Github\\TasteAtlas\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\notification_icon_background.xml",
         "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\fdb7f764bae631c34cad86862de08b65\\core-1.1.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\Github\\TasteAtlas\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "E:\\Github\\TasteAtlas\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "E:\\Github\\TasteAtlas\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\fdb7f764bae631c34cad86862de08b65\\core-1.1.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\Github\\TasteAtlas\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "E:\\Github\\TasteAtlas\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "E:\\Github\\TasteAtlas\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\fdb7f764bae631c34cad86862de08b65\\core-1.1.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\Github\\TasteAtlas\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "E:\\Github\\TasteAtlas\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "E:\\Github\\TasteAtlas\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     }
 ]

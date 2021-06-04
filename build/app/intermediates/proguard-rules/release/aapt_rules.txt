@@ -1,26 +1,26 @@
-# Referenced at D:\Android Projects\appetizer\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:17
+# Referenced at E:\Github\TasteAtlas\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:17
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
-# Referenced at D:\Android Projects\appetizer\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:17
+# Referenced at E:\Github\TasteAtlas\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:17
 -keep class androidx.multidex.MultiDexApplication { <init>(); }
-# Referenced at D:\Android Projects\appetizer\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:22
+# Referenced at E:\Github\TasteAtlas\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:22
 -keep class com.example.appetizer.MainActivity { <init>(); }
-# Referenced at D:\Android Projects\appetizer\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:117
+# Referenced at E:\Github\TasteAtlas\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:117
 -keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(); }
-# Referenced at D:\Android Projects\appetizer\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:108
+# Referenced at E:\Github\TasteAtlas\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:108
 -keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(); }
-# Referenced at D:\Android Projects\appetizer\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:145
+# Referenced at E:\Github\TasteAtlas\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:145
 -keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
-# Referenced at D:\Android Projects\appetizer\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:132
+# Referenced at E:\Github\TasteAtlas\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:132
 -keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(); }
-# Referenced at D:\Android Projects\appetizer\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:122
+# Referenced at E:\Github\TasteAtlas\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:122
 -keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
-# Referenced at D:\Android Projects\appetizer\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:128
+# Referenced at E:\Github\TasteAtlas\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:128
 -keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
-# Referenced at D:\Android Projects\appetizer\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:101
+# Referenced at E:\Github\TasteAtlas\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:101
 -keep class com.google.firebase.auth.internal.FederatedSignInActivity { <init>(); }
-# Referenced at D:\Android Projects\appetizer\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:64
+# Referenced at E:\Github\TasteAtlas\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:64
 -keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
-# Referenced at D:\Android Projects\appetizer\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:138
+# Referenced at E:\Github\TasteAtlas\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:138
 -keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
-# Referenced at D:\Android Projects\appetizer\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:97
+# Referenced at E:\Github\TasteAtlas\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:97
 -keep class io.flutter.plugins.urllauncher.WebViewActivity { <init>(); }

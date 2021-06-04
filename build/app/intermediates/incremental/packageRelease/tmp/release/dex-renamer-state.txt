@@ -1,4 +1,4 @@
-#Wed Nov 25 13:28:02 IST 2020
-base.0=D\:\\Android Projects\\appetizer\\build\\app\\intermediates\\transforms\\r8\\release\\0\\classes.dex
+#Wed Jan 06 01:05:40 IST 2021
+base.0=E\:\\Github\\TasteAtlas\\build\\app\\intermediates\\transforms\\r8\\release\\0\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

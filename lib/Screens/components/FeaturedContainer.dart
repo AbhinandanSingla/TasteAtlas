@@ -1,5 +1,6 @@
 import 'package:appetizer/ProductPage/models/FeatureProvider.dart';
 import 'package:appetizer/ProductPage/models/cartProvider.dart';
+import 'package:appetizer/login/LoginProvider.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:like_button/like_button.dart';
@@ -8,8 +9,9 @@ import 'package:provider/provider.dart';
 
 class FeatureContainer extends StatefulWidget {
   final int index;
+  final bool liked;
 
-  FeatureContainer({Key key, this.index}) : super(key: key);
+  FeatureContainer({Key key, this.index, this.liked}) : super(key: key);
 
   @override
   _FeatureContainerState createState() => _FeatureContainerState();
@@ -22,7 +24,8 @@ class _FeatureContainerState extends State<FeatureContainer>
     Size size = MediaQuery.of(context).size;
     FeatureProvider categoryModel =
         Provider.of<FeatureProvider>(context, listen: false);
-
+    CartProvider cartProvider = Provider.of(context, listen: false);
+    LoginProvider loginProvider = Provider.of(context, listen: false);
     return Container(
       margin: EdgeInsets.only(left: 10, right: 10),
       width: size.width - 120,
@@ -104,7 +107,14 @@ class _FeatureContainerState extends State<FeatureContainer>
                             color: isLiked ? Colors.pink : Colors.white,
                           );
                         },
-                      )
+                        onTap: (isLiked) async {
+                          await cartProvider.wishlistLiked(
+                              isLiked,
+                              loginProvider.user,
+                              categoryModel.feature[widget.index].id);
+                          return !isLiked;
+                        },
+                      ),
                     ],
                   ),
                 ),
@@ -123,7 +133,6 @@ class _FeatureContainerState extends State<FeatureContainer>
                 Spacer(
                   flex: 1,
                 ),
-
                 Container(
                   height: 35,
                   child: Row(

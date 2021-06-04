@@ -514,7 +514,7 @@ class CartSplash extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'Processeding your Please wait...',
+              'Processeding your order Please wait...',
               style: TextStyle(color: Color(0xff4B9DB5), fontSize: 15),
             ),
             Center(

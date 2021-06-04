@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Android Projects\\appetizer\\build\\app\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-pl\\values-pl.xml",
+            "outputFile": "E:\\Github\\TasteAtlas\\build\\app\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-pl\\values-pl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\35c6271043b1425f98f4c3536d04e924\\play-services-base-17.1.0\\res\\values-pl\\values.xml",

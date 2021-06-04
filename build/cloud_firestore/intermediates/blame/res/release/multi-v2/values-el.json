@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Android Projects\\appetizer\\build\\cloud_firestore\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-el\\values-el.xml",
+            "outputFile": "E:\\Github\\TasteAtlas\\build\\cloud_firestore\\intermediates\\res\\merged\\release\\values-el\\values-el.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\e0abceaa8d1536e87e980943353091ce\\jetified-play-services-basement-17.0.0\\res\\values-el\\values.xml",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "outputFile": "D:\\Android Projects\\appetizer\\build\\cloud_firestore\\intermediates\\res\\merged\\release\\values-el\\values-el.xml",
+            "outputFile": "E:\\Github\\TasteAtlas\\build\\cloud_firestore\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-el\\values-el.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\e0abceaa8d1536e87e980943353091ce\\jetified-play-services-basement-17.0.0\\res\\values-el\\values.xml",

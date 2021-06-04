@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Android Projects\\appetizer\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ne\\values-ne.xml",
+            "outputFile": "E:\\Github\\TasteAtlas\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ne\\values-ne.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\e0abceaa8d1536e87e980943353091ce\\jetified-play-services-basement-17.0.0\\res\\values-ne\\values.xml",

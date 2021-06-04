@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Android Projects\\appetizer\\build\\firebase_core\\intermediates\\res\\merged\\release\\values-en-rGB\\values-en-rGB.xml",
+            "outputFile": "E:\\Github\\TasteAtlas\\build\\firebase_core\\intermediates\\res\\merged\\release\\values-en-rGB\\values-en-rGB.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\values-en-rGB\\values.xml",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "outputFile": "D:\\Android Projects\\appetizer\\build\\firebase_core\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
+            "outputFile": "E:\\Github\\TasteAtlas\\build\\firebase_core\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\c6dd8f0dd025fb534d96453a90eb96a2\\play-services-base-17.0.0\\res\\values-en-rGB\\values.xml",

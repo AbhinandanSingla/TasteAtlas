@@ -1,34 +1,34 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:1:1-41:12
-INJECTED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:1:1-41:12
-INJECTED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:1:1-41:12
-INJECTED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:1:1-41:12
-MERGED from [:firebase_storage] D:\Android Projects\appetizer\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:2:1-15:12
-MERGED from [:cloud_firestore] D:\Android Projects\appetizer\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:2:1-15:12
-MERGED from [:firebase_auth] D:\Android Projects\appetizer\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:2:1-15:12
-MERGED from [:firebase_core] D:\Android Projects\appetizer\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:2:1-15:12
+ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:1:1-41:12
+INJECTED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:1:1-41:12
+INJECTED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:1:1-41:12
+INJECTED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:1:1-41:12
+MERGED from [:firebase_storage] E:\Github\TasteAtlas\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:2:1-15:12
+MERGED from [:cloud_firestore] E:\Github\TasteAtlas\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_auth] E:\Github\TasteAtlas\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] E:\Github\TasteAtlas\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\bd4f627e73a2f6f5109d2259ced3ced5\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-core:17.5.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\5b1231bee0f730cb5b8d30bf6df8b0ee\firebase-core-17.5.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-analytics:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e9d967453853660fb985240c48962d2c\firebase-analytics-17.6.0\AndroidManifest.xml:2:1-9:12
-MERGED from [:google_sign_in] D:\Android Projects\appetizer\build\google_sign_in\intermediates\library_manifest\release\AndroidManifest.xml:2:1-9:12
-MERGED from [:sqflite] D:\Android Projects\appetizer\build\sqflite\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
-MERGED from [:url_launcher] D:\Android Projects\appetizer\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:2:1-14:12
-MERGED from [:path_provider] D:\Android Projects\appetizer\build\path_provider\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
-MERGED from [:connectivity] D:\Android Projects\appetizer\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:2:1-10:12
+MERGED from [:google_sign_in] E:\Github\TasteAtlas\build\google_sign_in\intermediates\library_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:sqflite] E:\Github\TasteAtlas\build\sqflite\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher] E:\Github\TasteAtlas\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:2:1-14:12
+MERGED from [:path_provider] E:\Github\TasteAtlas\build\path_provider\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:connectivity] E:\Github\TasteAtlas\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\022a83eebee0e1acdb4f29bb61ab1a32\firebase-auth-19.4.0\AndroidManifest.xml:17:1-42:12
 MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\6284258b54020c26ad5faffcf490e80d\firebase-storage-19.2.0\AndroidManifest.xml:15:1-39:12
-MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\9401b9fa0cc9c629fa1014daed9daceb\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:2:1-26:12
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e78bb3ddbb62d446becb993898ffe984\jetified-play-services-auth-16.0.1\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d6fac13d8c236149af285630dd448799\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\f44c5623fdfb5aa0e511c28990204f90\jetified-play-services-auth-16.0.1\AndroidManifest.xml:17:1-39:12
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\03e476d95e07a9b8862ce5805013a6d4\grpc-android-1.28.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\a8b806c2ca4ea066a6a2f472df9c62db\play-services-measurement-17.6.0\AndroidManifest.xml:17:1-46:12
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\98fae2a3bdd762fd65c348a3731607f6\play-services-measurement-api-17.6.0\AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\692858f1912cae57139e49819d67da97\play-services-measurement-sdk-17.6.0\AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e73d67a41c30fec7d59cfa04be844b80\jetified-play-services-auth-api-phone-16.0.0\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\c59caaea7391d745092c76f967a77851\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\fc72cc959a9a2eb4a450065125c00411\jetified-play-services-auth-api-phone-16.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\53631a681ddabeee4cb3f869520bbcc7\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\028f9c79ac39df7289882be35771fbed\firebase-auth-interop-19.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\0bbac981ae9a6b906d984b47b0dd33fb\firebase-installations-16.3.2\AndroidManifest.xml:2:1-23:12
-MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\95871d21aba67905f833bb9c4a299304\jetified-firebase-common-19.3.1\AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d95c9f10153eb1befd18db5fe99415ed\jetified-firebase-common-19.3.1\AndroidManifest.xml:15:1-40:12
 MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\fe556d1c64a7ef12e97e2b55e48f4f3c\firebase-database-collection-17.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\35c6271043b1425f98f4c3536d04e924\play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\46eed6efc993acb2e80fc386ef20f521\firebase-installations-interop-16.0.0\AndroidManifest.xml:15:1-23:12
@@ -59,47 +59,47 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Deepu Singla
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\c9b2d7ceb417280870b2e4b56bb7ccf7\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\9764f1b78bfcb75454627bb577c55ef5\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\c7c20c3d0a97718cc19d235aa2fb18e4\protolite-well-known-types-17.1.0\AndroidManifest.xml:2:1-11:12
-INJECTED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:1:1-41:12
-INJECTED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:1:1-41:12
-INJECTED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:1:1-41:12
+INJECTED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:1:1-41:12
+INJECTED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:1:1-41:12
+INJECTED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:1:1-41:12
 	package
-		ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:2:5-36
-		INJECTED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml
+		ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:2:5-36
+		INJECTED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:1:1-41:12
-		INJECTED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml
+		ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:1:1-41:12
+		INJECTED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:1:1-41:12
-		INJECTED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml
+		ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:1:1-41:12
+		INJECTED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:1:11-69
 application
-ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:3:4-40:19
-MERGED from [:firebase_storage] D:\Android Projects\appetizer\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_storage] D:\Android Projects\appetizer\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
-MERGED from [:cloud_firestore] D:\Android Projects\appetizer\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
-MERGED from [:cloud_firestore] D:\Android Projects\appetizer\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_auth] D:\Android Projects\appetizer\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_auth] D:\Android Projects\appetizer\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] D:\Android Projects\appetizer\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] D:\Android Projects\appetizer\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
+ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:3:4-40:19
+MERGED from [:firebase_storage] E:\Github\TasteAtlas\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] E:\Github\TasteAtlas\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] E:\Github\TasteAtlas\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] E:\Github\TasteAtlas\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] E:\Github\TasteAtlas\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] E:\Github\TasteAtlas\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] E:\Github\TasteAtlas\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] E:\Github\TasteAtlas\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
 MERGED from [com.google.firebase:firebase-core:17.5.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\5b1231bee0f730cb5b8d30bf6df8b0ee\firebase-core-17.5.1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-core:17.5.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\5b1231bee0f730cb5b8d30bf6df8b0ee\firebase-core-17.5.1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e9d967453853660fb985240c48962d2c\firebase-analytics-17.6.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e9d967453853660fb985240c48962d2c\firebase-analytics-17.6.0\AndroidManifest.xml:7:5-20
-MERGED from [:url_launcher] D:\Android Projects\appetizer\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:7:5-12:19
-MERGED from [:url_launcher] D:\Android Projects\appetizer\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher] E:\Github\TasteAtlas\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher] E:\Github\TasteAtlas\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\022a83eebee0e1acdb4f29bb61ab1a32\firebase-auth-19.4.0\AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\022a83eebee0e1acdb4f29bb61ab1a32\firebase-auth-19.4.0\AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\6284258b54020c26ad5faffcf490e80d\firebase-storage-19.2.0\AndroidManifest.xml:29:5-37:19
 MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\6284258b54020c26ad5faffcf490e80d\firebase-storage-19.2.0\AndroidManifest.xml:29:5-37:19
-MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\9401b9fa0cc9c629fa1014daed9daceb\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:16:5-24:19
-MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\9401b9fa0cc9c629fa1014daed9daceb\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:16:5-24:19
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e78bb3ddbb62d446becb993898ffe984\jetified-play-services-auth-16.0.1\AndroidManifest.xml:22:5-37:19
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e78bb3ddbb62d446becb993898ffe984\jetified-play-services-auth-16.0.1\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d6fac13d8c236149af285630dd448799\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d6fac13d8c236149af285630dd448799\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\f44c5623fdfb5aa0e511c28990204f90\jetified-play-services-auth-16.0.1\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\f44c5623fdfb5aa0e511c28990204f90\jetified-play-services-auth-16.0.1\AndroidManifest.xml:22:5-37:19
 MERGED from [com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\a8b806c2ca4ea066a6a2f472df9c62db\play-services-measurement-17.6.0\AndroidManifest.xml:28:5-44:19
 MERGED from [com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\a8b806c2ca4ea066a6a2f472df9c62db\play-services-measurement-17.6.0\AndroidManifest.xml:28:5-44:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\98fae2a3bdd762fd65c348a3731607f6\play-services-measurement-api-17.6.0\AndroidManifest.xml:26:5-34:19
@@ -110,8 +110,8 @@ MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Deepu Si
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\028f9c79ac39df7289882be35771fbed\firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\0bbac981ae9a6b906d984b47b0dd33fb\firebase-installations-16.3.2\AndroidManifest.xml:13:5-21:19
 MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\0bbac981ae9a6b906d984b47b0dd33fb\firebase-installations-16.3.2\AndroidManifest.xml:13:5-21:19
-MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\95871d21aba67905f833bb9c4a299304\jetified-firebase-common-19.3.1\AndroidManifest.xml:25:5-38:19
-MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\95871d21aba67905f833bb9c4a299304\jetified-firebase-common-19.3.1\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d95c9f10153eb1befd18db5fe99415ed\jetified-firebase-common-19.3.1\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d95c9f10153eb1befd18db5fe99415ed\jetified-firebase-common-19.3.1\AndroidManifest.xml:25:5-38:19
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\35c6271043b1425f98f4c3536d04e924\play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\35c6271043b1425f98f4c3536d04e924\play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\c778ff5ee87e366d2a6559d027ac6339\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
@@ -135,87 +135,87 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\De
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\fdb7f764bae631c34cad86862de08b65\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:4:9-34
+		ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:4:9-34
 	android:icon
-		ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:5:9-43
+		ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:5:9-43
 activity#com.example.appetizer.MainActivity
-ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:6:9-34:20
+ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:6:9-34:20
 	android:launchMode
-		ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:8:13-43
+		ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:8:13-43
 	android:hardwareAccelerated
-		ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:11:13-47
+		ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:11:13-47
 	android:windowSoftInputMode
-		ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:12:13-55
+		ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:12:13-55
 	android:configChanges
-		ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:10:13-163
+		ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:10:13-163
 	android:theme
-		ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:9:13-47
+		ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:9:13-47
 	android:name
-		ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:7:13-41
+		ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:7:13-41
 meta-data#io.flutter.embedding.android.NormalTheme
-ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:17:13-20:17
+ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:17:13-20:17
 	android:resource
-		ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:19:15-52
+		ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:19:15-52
 	android:name
-		ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:18:15-70
+		ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:18:15-70
 meta-data#io.flutter.embedding.android.SplashScreenDrawable
-ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:26:13-29:17
+ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:26:13-29:17
 	android:resource
-		ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:28:15-61
+		ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:28:15-61
 	android:name
-		ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:27:15-79
+		ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:27:15-79
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:30:13-33:29
+ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:30:13-33:29
 action#android.intent.action.MAIN
-ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:31:17-68
+ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:31:17-68
 	android:name
-		ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:31:25-66
+		ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:32:17-76
+ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:32:17-76
 	android:name
-		ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:32:27-74
+		ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:32:27-74
 meta-data#flutterEmbedding
-ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:37:9-39:33
+ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:37:9-39:33
 	android:value
-		ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:39:13-30
+		ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:39:13-30
 	android:name
-		ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:38:13-44
+		ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:38:13-44
 uses-sdk
-INJECTED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml
-INJECTED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml
-MERGED from [:firebase_storage] D:\Android Projects\appetizer\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_storage] D:\Android Projects\appetizer\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:cloud_firestore] D:\Android Projects\appetizer\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:cloud_firestore] D:\Android Projects\appetizer\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_auth] D:\Android Projects\appetizer\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_auth] D:\Android Projects\appetizer\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] D:\Android Projects\appetizer\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] D:\Android Projects\appetizer\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+INJECTED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml
+INJECTED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml
+MERGED from [:firebase_storage] E:\Github\TasteAtlas\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] E:\Github\TasteAtlas\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] E:\Github\TasteAtlas\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] E:\Github\TasteAtlas\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] E:\Github\TasteAtlas\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] E:\Github\TasteAtlas\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] E:\Github\TasteAtlas\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] E:\Github\TasteAtlas\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\bd4f627e73a2f6f5109d2259ced3ced5\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\bd4f627e73a2f6f5109d2259ced3ced5\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [com.google.firebase:firebase-core:17.5.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\5b1231bee0f730cb5b8d30bf6df8b0ee\firebase-core-17.5.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-core:17.5.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\5b1231bee0f730cb5b8d30bf6df8b0ee\firebase-core-17.5.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e9d967453853660fb985240c48962d2c\firebase-analytics-17.6.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e9d967453853660fb985240c48962d2c\firebase-analytics-17.6.0\AndroidManifest.xml:5:5-44
-MERGED from [:google_sign_in] D:\Android Projects\appetizer\build\google_sign_in\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:google_sign_in] D:\Android Projects\appetizer\build\google_sign_in\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:sqflite] D:\Android Projects\appetizer\build\sqflite\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:sqflite] D:\Android Projects\appetizer\build\sqflite\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:url_launcher] D:\Android Projects\appetizer\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:url_launcher] D:\Android Projects\appetizer\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:path_provider] D:\Android Projects\appetizer\build\path_provider\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:path_provider] D:\Android Projects\appetizer\build\path_provider\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:connectivity] D:\Android Projects\appetizer\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:connectivity] D:\Android Projects\appetizer\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] E:\Github\TasteAtlas\build\google_sign_in\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] E:\Github\TasteAtlas\build\google_sign_in\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] E:\Github\TasteAtlas\build\sqflite\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] E:\Github\TasteAtlas\build\sqflite\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] E:\Github\TasteAtlas\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] E:\Github\TasteAtlas\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] E:\Github\TasteAtlas\build\path_provider\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] E:\Github\TasteAtlas\build\path_provider\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:connectivity] E:\Github\TasteAtlas\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:connectivity] E:\Github\TasteAtlas\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\022a83eebee0e1acdb4f29bb61ab1a32\firebase-auth-19.4.0\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\022a83eebee0e1acdb4f29bb61ab1a32\firebase-auth-19.4.0\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\6284258b54020c26ad5faffcf490e80d\firebase-storage-19.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\6284258b54020c26ad5faffcf490e80d\firebase-storage-19.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\9401b9fa0cc9c629fa1014daed9daceb\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\9401b9fa0cc9c629fa1014daed9daceb\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e78bb3ddbb62d446becb993898ffe984\jetified-play-services-auth-16.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e78bb3ddbb62d446becb993898ffe984\jetified-play-services-auth-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d6fac13d8c236149af285630dd448799\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d6fac13d8c236149af285630dd448799\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\f44c5623fdfb5aa0e511c28990204f90\jetified-play-services-auth-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\f44c5623fdfb5aa0e511c28990204f90\jetified-play-services-auth-16.0.1\AndroidManifest.xml:20:5-44
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\03e476d95e07a9b8862ce5805013a6d4\grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\03e476d95e07a9b8862ce5805013a6d4\grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\a8b806c2ca4ea066a6a2f472df9c62db\play-services-measurement-17.6.0\AndroidManifest.xml:20:5-44
@@ -224,16 +224,16 @@ MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] C:\Use
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\98fae2a3bdd762fd65c348a3731607f6\play-services-measurement-api-17.6.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\692858f1912cae57139e49819d67da97\play-services-measurement-sdk-17.6.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\692858f1912cae57139e49819d67da97\play-services-measurement-sdk-17.6.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e73d67a41c30fec7d59cfa04be844b80\jetified-play-services-auth-api-phone-16.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e73d67a41c30fec7d59cfa04be844b80\jetified-play-services-auth-api-phone-16.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\c59caaea7391d745092c76f967a77851\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\c59caaea7391d745092c76f967a77851\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\fc72cc959a9a2eb4a450065125c00411\jetified-play-services-auth-api-phone-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\fc72cc959a9a2eb4a450065125c00411\jetified-play-services-auth-api-phone-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\53631a681ddabeee4cb3f869520bbcc7\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\53631a681ddabeee4cb3f869520bbcc7\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\028f9c79ac39df7289882be35771fbed\firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\028f9c79ac39df7289882be35771fbed\firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\0bbac981ae9a6b906d984b47b0dd33fb\firebase-installations-16.3.2\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\0bbac981ae9a6b906d984b47b0dd33fb\firebase-installations-16.3.2\AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\95871d21aba67905f833bb9c4a299304\jetified-firebase-common-19.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\95871d21aba67905f833bb9c4a299304\jetified-firebase-common-19.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d95c9f10153eb1befd18db5fe99415ed\jetified-firebase-common-19.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d95c9f10153eb1befd18db5fe99415ed\jetified-firebase-common-19.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\fe556d1c64a7ef12e97e2b55e48f4f3c\firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\fe556d1c64a7ef12e97e2b55e48f4f3c\firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\35c6271043b1425f98f4c3536d04e924\play-services-base-17.1.0\AndroidManifest.xml:20:5-44
@@ -294,74 +294,74 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Deepu Singla\.gradle\caches\tr
 MERGED from [androidx.print:print:1.0.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\9764f1b78bfcb75454627bb577c55ef5\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\c7c20c3d0a97718cc19d235aa2fb18e4\protolite-well-known-types-17.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\c7c20c3d0a97718cc19d235aa2fb18e4\protolite-well-known-types-17.1.0\AndroidManifest.xml:7:5-9:41
-INJECTED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml
-INJECTED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml
+INJECTED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml
+INJECTED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml
+		ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml
+		ADDED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:firebase_storage] D:\Android Projects\appetizer\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
-MERGED from [:cloud_firestore] D:\Android Projects\appetizer\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
-MERGED from [:cloud_firestore] D:\Android Projects\appetizer\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_auth] D:\Android Projects\appetizer\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_auth] D:\Android Projects\appetizer\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] D:\Android Projects\appetizer\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] D:\Android Projects\appetizer\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+ADDED from [:firebase_storage] E:\Github\TasteAtlas\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] E:\Github\TasteAtlas\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] E:\Github\TasteAtlas\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] E:\Github\TasteAtlas\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] E:\Github\TasteAtlas\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] E:\Github\TasteAtlas\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] E:\Github\TasteAtlas\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\022a83eebee0e1acdb4f29bb61ab1a32\firebase-auth-19.4.0\AndroidManifest.xml:33:9-39:19
 MERGED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\022a83eebee0e1acdb4f29bb61ab1a32\firebase-auth-19.4.0\AndroidManifest.xml:33:9-39:19
 MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\6284258b54020c26ad5faffcf490e80d\firebase-storage-19.2.0\AndroidManifest.xml:30:9-36:19
 MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\6284258b54020c26ad5faffcf490e80d\firebase-storage-19.2.0\AndroidManifest.xml:30:9-36:19
-MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\9401b9fa0cc9c629fa1014daed9daceb\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:17:9-23:19
-MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\9401b9fa0cc9c629fa1014daed9daceb\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d6fac13d8c236149af285630dd448799\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d6fac13d8c236149af285630dd448799\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:17:9-23:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\98fae2a3bdd762fd65c348a3731607f6\play-services-measurement-api-17.6.0\AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\98fae2a3bdd762fd65c348a3731607f6\play-services-measurement-api-17.6.0\AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\0bbac981ae9a6b906d984b47b0dd33fb\firebase-installations-16.3.2\AndroidManifest.xml:14:9-20:19
 MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\0bbac981ae9a6b906d984b47b0dd33fb\firebase-installations-16.3.2\AndroidManifest.xml:14:9-20:19
-MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\95871d21aba67905f833bb9c4a299304\jetified-firebase-common-19.3.1\AndroidManifest.xml:33:9-37:35
-MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\95871d21aba67905f833bb9c4a299304\jetified-firebase-common-19.3.1\AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d95c9f10153eb1befd18db5fe99415ed\jetified-firebase-common-19.3.1\AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d95c9f10153eb1befd18db5fe99415ed\jetified-firebase-common-19.3.1\AndroidManifest.xml:33:9-37:35
 	android:exported
 		ADDED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\022a83eebee0e1acdb4f29bb61ab1a32\firebase-auth-19.4.0\AndroidManifest.xml:35:13-37
 	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\95871d21aba67905f833bb9c4a299304\jetified-firebase-common-19.3.1\AndroidManifest.xml:37:13-32
+		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d95c9f10153eb1befd18db5fe99415ed\jetified-firebase-common-19.3.1\AndroidManifest.xml:37:13-32
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\95871d21aba67905f833bb9c4a299304\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
+		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d95c9f10153eb1befd18db5fe99415ed\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [:firebase_storage] D:\Android Projects\appetizer\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:8:18-89
+		ADDED from [:firebase_storage] E:\Github\TasteAtlas\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:8:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_storage] D:\Android Projects\appetizer\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_storage] E:\Github\TasteAtlas\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_storage] D:\Android Projects\appetizer\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_storage] E:\Github\TasteAtlas\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_storage] D:\Android Projects\appetizer\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:10:17-126
+		ADDED from [:firebase_storage] E:\Github\TasteAtlas\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:10:17-126
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
-ADDED from [:cloud_firestore] D:\Android Projects\appetizer\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+ADDED from [:cloud_firestore] E:\Github\TasteAtlas\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:cloud_firestore] D:\Android Projects\appetizer\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+		ADDED from [:cloud_firestore] E:\Github\TasteAtlas\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:cloud_firestore] D:\Android Projects\appetizer\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:10:17-134
+		ADDED from [:cloud_firestore] E:\Github\TasteAtlas\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:10:17-134
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
-ADDED from [:firebase_auth] D:\Android Projects\appetizer\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_auth] E:\Github\TasteAtlas\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_auth] D:\Android Projects\appetizer\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_auth] E:\Github\TasteAtlas\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_auth] D:\Android Projects\appetizer\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
+		ADDED from [:firebase_auth] E:\Github\TasteAtlas\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
-ADDED from [:firebase_core] D:\Android Projects\appetizer\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_core] E:\Github\TasteAtlas\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_core] D:\Android Projects\appetizer\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_core] E:\Github\TasteAtlas\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_core] D:\Android Projects\appetizer\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
+		ADDED from [:firebase_core] E:\Github\TasteAtlas\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
 uses-permission#android.permission.INTERNET
-ADDED from [:google_sign_in] D:\Android Projects\appetizer\build\google_sign_in\intermediates\library_manifest\release\AndroidManifest.xml:7:5-67
+ADDED from [:google_sign_in] E:\Github\TasteAtlas\build\google_sign_in\intermediates\library_manifest\release\AndroidManifest.xml:7:5-67
 MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\6284258b54020c26ad5faffcf490e80d\firebase-storage-19.2.0\AndroidManifest.xml:27:5-67
 MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\6284258b54020c26ad5faffcf490e80d\firebase-storage-19.2.0\AndroidManifest.xml:27:5-67
-MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\9401b9fa0cc9c629fa1014daed9daceb\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:14:5-67
-MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\9401b9fa0cc9c629fa1014daed9daceb\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d6fac13d8c236149af285630dd448799\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d6fac13d8c236149af285630dd448799\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:14:5-67
 MERGED from [com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\a8b806c2ca4ea066a6a2f472df9c62db\play-services-measurement-17.6.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\a8b806c2ca4ea066a6a2f472df9c62db\play-services-measurement-17.6.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\98fae2a3bdd762fd65c348a3731607f6\play-services-measurement-api-17.6.0\AndroidManifest.xml:22:5-67
@@ -373,21 +373,21 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\ebd40d08bfbecba5255fe0b979759191\play-services-measurement-sdk-api-17.6.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\ebd40d08bfbecba5255fe0b979759191\play-services-measurement-sdk-api-17.6.0\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from [:google_sign_in] D:\Android Projects\appetizer\build\google_sign_in\intermediates\library_manifest\release\AndroidManifest.xml:7:22-64
+		ADDED from [:google_sign_in] E:\Github\TasteAtlas\build\google_sign_in\intermediates\library_manifest\release\AndroidManifest.xml:7:22-64
 activity#io.flutter.plugins.urllauncher.WebViewActivity
-ADDED from [:url_launcher] D:\Android Projects\appetizer\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
+ADDED from [:url_launcher] E:\Github\TasteAtlas\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
 	android:exported
-		ADDED from [:url_launcher] D:\Android Projects\appetizer\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
+		ADDED from [:url_launcher] E:\Github\TasteAtlas\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
 	android:theme
-		ADDED from [:url_launcher] D:\Android Projects\appetizer\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
+		ADDED from [:url_launcher] E:\Github\TasteAtlas\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
 	android:name
-		ADDED from [:url_launcher] D:\Android Projects\appetizer\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
+		ADDED from [:url_launcher] E:\Github\TasteAtlas\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:connectivity] D:\Android Projects\appetizer\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:7:5-79
+ADDED from [:connectivity] E:\Github\TasteAtlas\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:7:5-79
 MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\6284258b54020c26ad5faffcf490e80d\firebase-storage-19.2.0\AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\6284258b54020c26ad5faffcf490e80d\firebase-storage-19.2.0\AndroidManifest.xml:26:5-79
-MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\9401b9fa0cc9c629fa1014daed9daceb\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:13:5-79
-MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\9401b9fa0cc9c629fa1014daed9daceb\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d6fac13d8c236149af285630dd448799\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d6fac13d8c236149af285630dd448799\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:13:5-79
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\03e476d95e07a9b8862ce5805013a6d4\grpc-android-1.28.0\AndroidManifest.xml:11:5-79
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\03e476d95e07a9b8862ce5805013a6d4\grpc-android-1.28.0\AndroidManifest.xml:11:5-79
 MERGED from [com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\a8b806c2ca4ea066a6a2f472df9c62db\play-services-measurement-17.6.0\AndroidManifest.xml:24:5-79
@@ -401,11 +401,11 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\ebd40d08bfbecba5255fe0b979759191\play-services-measurement-sdk-api-17.6.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\ebd40d08bfbecba5255fe0b979759191\play-services-measurement-sdk-api-17.6.0\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from [:connectivity] D:\Android Projects\appetizer\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:7:22-76
+		ADDED from [:connectivity] E:\Github\TasteAtlas\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:7:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [:connectivity] D:\Android Projects\appetizer\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:8:5-76
+ADDED from [:connectivity] E:\Github\TasteAtlas\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:8:5-76
 	android:name
-		ADDED from [:connectivity] D:\Android Projects\appetizer\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:8:22-73
+		ADDED from [:connectivity] E:\Github\TasteAtlas\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:8:22-73
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
 ADDED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\022a83eebee0e1acdb4f29bb61ab1a32\firebase-auth-19.4.0\AndroidManifest.xml:24:9-31:50
 	android:excludeFromRecents
@@ -435,29 +435,29 @@ ADDED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\Deepu Singla\.
 	android:name
 		ADDED from [com.google.firebase:firebase-storage:19.2.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\6284258b54020c26ad5faffcf490e80d\firebase-storage-19.2.0\AndroidManifest.xml:34:17-107
 meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
-ADDED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\9401b9fa0cc9c629fa1014daed9daceb\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:20:13-22:85
+ADDED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d6fac13d8c236149af285630dd448799\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:20:13-22:85
 	android:value
-		ADDED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\9401b9fa0cc9c629fa1014daed9daceb\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:22:17-82
+		ADDED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d6fac13d8c236149af285630dd448799\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:22:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\9401b9fa0cc9c629fa1014daed9daceb\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:21:17-111
+		ADDED from [com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d6fac13d8c236149af285630dd448799\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:21:17-111
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e78bb3ddbb62d446becb993898ffe984\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\f44c5623fdfb5aa0e511c28990204f90\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e78bb3ddbb62d446becb993898ffe984\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\f44c5623fdfb5aa0e511c28990204f90\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e78bb3ddbb62d446becb993898ffe984\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\f44c5623fdfb5aa0e511c28990204f90\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e78bb3ddbb62d446becb993898ffe984\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\f44c5623fdfb5aa0e511c28990204f90\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e78bb3ddbb62d446becb993898ffe984\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\f44c5623fdfb5aa0e511c28990204f90\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e78bb3ddbb62d446becb993898ffe984\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\f44c5623fdfb5aa0e511c28990204f90\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e78bb3ddbb62d446becb993898ffe984\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\f44c5623fdfb5aa0e511c28990204f90\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
 	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e78bb3ddbb62d446becb993898ffe984\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\f44c5623fdfb5aa0e511c28990204f90\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e78bb3ddbb62d446becb993898ffe984\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\f44c5623fdfb5aa0e511c28990204f90\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\a8b806c2ca4ea066a6a2f472df9c62db\play-services-measurement-17.6.0\AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\98fae2a3bdd762fd65c348a3731607f6\play-services-measurement-api-17.6.0\AndroidManifest.xml:24:5-68
@@ -513,17 +513,17 @@ ADDED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\Deepu Si
 	android:name
 		ADDED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\0bbac981ae9a6b906d984b47b0dd33fb\firebase-installations-16.3.2\AndroidManifest.xml:18:17-127
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\95871d21aba67905f833bb9c4a299304\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
+ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d95c9f10153eb1befd18db5fe99415ed\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\95871d21aba67905f833bb9c4a299304\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
+		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d95c9f10153eb1befd18db5fe99415ed\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\95871d21aba67905f833bb9c4a299304\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
+		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d95c9f10153eb1befd18db5fe99415ed\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\95871d21aba67905f833bb9c4a299304\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
+		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d95c9f10153eb1befd18db5fe99415ed\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\95871d21aba67905f833bb9c4a299304\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
+		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d95c9f10153eb1befd18db5fe99415ed\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\95871d21aba67905f833bb9c4a299304\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
+		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d95c9f10153eb1befd18db5fe99415ed\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\35c6271043b1425f98f4c3536d04e924\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
 	android:exported

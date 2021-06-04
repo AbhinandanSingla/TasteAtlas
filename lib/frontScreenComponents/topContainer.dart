@@ -32,12 +32,12 @@ class TopContainer implements SliverPersistentHeaderDelegate {
                 height: size.height * 0.3 - 10,
                 decoration: BoxDecoration(
                     image: DecorationImage(
-                        fit: BoxFit.fitWidth,
-                        image: AssetImage('assets/images/front123.jpg')),
+                          fit: BoxFit.fitWidth,
+                        image: AssetImage('assets/images/bgmain2.jpg')),
                     color: Colors.green,
                     borderRadius:  BorderRadius.only(
-                        bottomLeft: Radius.circular(40),
-                        bottomRight: Radius.circular(40))),
+                        bottomLeft: Radius.circular(20),
+                        bottomRight: Radius.circular(20))),
               ),
               Padding(
                 padding: EdgeInsets.only(top: 20),

@@ -7,7 +7,9 @@ import 'package:appetizer/ProductPage/models/MainScreenProviders.dart';
 import 'package:appetizer/ProductPage/models/SurveyProvider.dart';
 import 'package:appetizer/ProductPage/models/cartProvider.dart';
 import 'package:appetizer/frontScreenComponents/topContainer.dart';
+import 'package:appetizer/login/LoginProvider.dart';
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:like_button/like_button.dart';
@@ -27,6 +29,20 @@ class _MainFrontScreenState extends State<MainFrontScreen> {
   Future products;
   Future Featured;
   Future images;
+  final FirebaseFirestore _firestore = FirebaseFirestore.instance;
+
+  Future<bool> onLikeButtonTapped(bool isLiked, int productID) async {
+    LoginProvider loginProvider =
+        Provider.of<LoginProvider>(context, listen: false);
+    // print('my order is liked ${loginProvider.user.uid}');
+    // _firestore
+    //     .collection('user')
+    //     .doc(loginProvider.user.uid.toString())
+    //     .update({
+    //   'currentOrder': FieldValue.arrayUnion([orderNumber.toString()])
+    // });
+    return !isLiked;
+  }
 
   getFuturesFood() async {
     MainScreenProvider providerInstance =
@@ -37,6 +53,8 @@ class _MainFrontScreenState extends State<MainFrontScreen> {
         Provider.of<CartProvider>(context, listen: false);
     SurveyProvider surveyProvider =
         Provider.of<SurveyProvider>(context, listen: false);
+    LoginProvider loginProvider = Provider.of(context, listen: false);
+    cartProvider.wishlistStartup(loginProvider.user);
     if (providerInstance.isFirstTimeInit == true) {
       providerInstance.isFirstTimeInit = false;
       await providerInstance.loadAllData();
@@ -61,6 +79,8 @@ class _MainFrontScreenState extends State<MainFrontScreen> {
 
   @override
   Widget build(BuildContext context) {
+    LoginProvider loginProvider = Provider.of(context, listen: false);
+    CartProvider cartProvider = Provider.of(context, listen: false);
     MainScreenProvider categoryModel =
         Provider.of<MainScreenProvider>(context, listen: false);
     FeatureProvider featureInstance =
@@ -99,7 +119,7 @@ class _MainFrontScreenState extends State<MainFrontScreen> {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Text(
-                                'TasteAlas',
+                                'TasteAtlas',
                                 style: TextStyle(
                                     fontSize: 30, color: Colors.deepOrange),
                               ),
@@ -182,6 +202,11 @@ class _MainFrontScreenState extends State<MainFrontScreen> {
                                 ? 0
                                 : featureInstance.feature.length,
                             itemBuilder: (BuildContext context, int index) {
+                              bool Liked = false;
+                              if (cartProvider.wishlist.contains(
+                                  featureInstance.feature[index].id)) {
+                                Liked = true;
+                              }
                               return GestureDetector(
                                   onTap: () {
                                     Navigator.of(context)
@@ -196,6 +221,7 @@ class _MainFrontScreenState extends State<MainFrontScreen> {
                                     tag: featureInstance.feature[index].id,
                                     child: FeatureContainer(
                                       index: index,
+                                      liked: Liked,
                                     ),
                                   ));
                             },
@@ -264,6 +290,11 @@ class _MainFrontScreenState extends State<MainFrontScreen> {
                       ),
                       delegate: SliverChildBuilderDelegate(
                         (BuildContext context, int index) {
+                          bool wishlistLiked = false;
+                          if (cartProvider.wishlist
+                              .contains(categoryModel.GridFood[index].id)) {
+                            wishlistLiked = true;
+                          }
                           return GestureDetector(
                             onTap: () {
                               print(categoryModel.GridFood[index].id);
@@ -326,6 +357,7 @@ class _MainFrontScreenState extends State<MainFrontScreen> {
                                                       .spaceBetween,
                                               children: [
                                                 LikeButton(
+                                                  isLiked: wishlistLiked,
                                                   size: 23,
                                                   likeBuilder: (bool isLiked) {
                                                     return Image.asset(
@@ -334,6 +366,17 @@ class _MainFrontScreenState extends State<MainFrontScreen> {
                                                           ? Colors.pink
                                                           : Colors.white,
                                                     );
+                                                  },
+                                                  onTap: (isLiked) async {
+                                                    cartProvider.wishlistLiked(
+                                                        isLiked,
+                                                        loginProvider.user,
+                                                        categoryModel
+                                                            .GridFood[index]
+                                                            .id);
+                                                    print('i was liked ');
+
+                                                    return !isLiked;
                                                   },
                                                 ),
                                                 Container(

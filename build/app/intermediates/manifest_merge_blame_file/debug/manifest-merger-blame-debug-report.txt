@@ -12,14 +12,14 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->D:\Android Projects\appetizer\android\app\src\debug\AndroidManifest.xml:6:5-66
-14-->D:\Android Projects\appetizer\android\app\src\debug\AndroidManifest.xml:6:22-64
+14-->E:\Github\TasteAtlas\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->E:\Github\TasteAtlas\android\app\src\debug\AndroidManifest.xml:6:22-64
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->[:connectivity] D:\Android Projects\appetizer\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
-15-->[:connectivity] D:\Android Projects\appetizer\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
+15-->[:connectivity] E:\Github\TasteAtlas\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+15-->[:connectivity] E:\Github\TasteAtlas\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
 16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-16-->[:connectivity] D:\Android Projects\appetizer\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-76
-16-->[:connectivity] D:\Android Projects\appetizer\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-73
+16-->[:connectivity] E:\Github\TasteAtlas\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-76
+16-->[:connectivity] E:\Github\TasteAtlas\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-73
 17    <uses-permission android:name="android.permission.WAKE_LOCK" />
 17-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\a8b806c2ca4ea066a6a2f472df9c62db\play-services-measurement-17.6.0\AndroidManifest.xml:25:5-68
 17-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\a8b806c2ca4ea066a6a2f472df9c62db\play-services-measurement-17.6.0\AndroidManifest.xml:25:22-65
@@ -28,29 +28,29 @@
 18-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\a8b806c2ca4ea066a6a2f472df9c62db\play-services-measurement-17.6.0\AndroidManifest.xml:26:22-107
 19
 20    <application
-20-->D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:3:4-40:19
+20-->E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:3:4-40:19
 21        android:name="androidx.multidex.MultiDexApplication"
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 22-->[androidx.core:core:1.1.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\fdb7f764bae631c34cad86862de08b65\core-1.1.0\AndroidManifest.xml:24:18-86
 23        android:debuggable="true"
 24        android:icon="@mipmap/ic_launcher"
-24-->D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:5:9-43
+24-->E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:5:9-43
 25        android:label="appetizer" >
-25-->D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:4:9-34
+25-->E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:4:9-34
 26        <activity
-26-->D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:6:9-34:20
+26-->E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:6:9-34:20
 27            android:name="com.example.appetizer.MainActivity"
-27-->D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:7:13-41
+27-->E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:7:13-41
 28            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-28-->D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:10:13-163
+28-->E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:10:13-163
 29            android:hardwareAccelerated="true"
-29-->D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:11:13-47
+29-->E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:11:13-47
 30            android:launchMode="singleTop"
-30-->D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:8:13-43
+30-->E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:8:13-43
 31            android:theme="@style/LaunchTheme"
-31-->D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:9:13-47
+31-->E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:9:13-47
 32            android:windowSoftInputMode="adjustResize" >
-32-->D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:12:13-55
+32-->E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:12:13-55
 33
 34            <!--
 35                 Specifies an Android theme to apply to this Activity as soon as
@@ -59,11 +59,11 @@
 38                 to determine the Window background behind the Flutter UI.
 39            -->
 40            <meta-data
-40-->D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:17:13-20:17
+40-->E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:17:13-20:17
 41                android:name="io.flutter.embedding.android.NormalTheme"
-41-->D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:18:15-70
+41-->E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:18:15-70
 42                android:resource="@style/NormalTheme" />
-42-->D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:19:15-52
+42-->E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:19:15-52
 43            <!--
 44                 Displays an Android View that continues showing the launch screen
 45                 Drawable until Flutter paints its first frame, then this splash
@@ -72,21 +72,21 @@
 48                 Flutter's first frame.
 49            -->
 50            <meta-data
-50-->D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:26:13-29:17
+50-->E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:26:13-29:17
 51                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-51-->D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:27:15-79
+51-->E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:27:15-79
 52                android:resource="@drawable/launch_background" />
-52-->D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:28:15-61
+52-->E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:28:15-61
 53
 54            <intent-filter>
-54-->D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:30:13-33:29
+54-->E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:30:13-33:29
 55                <action android:name="android.intent.action.MAIN" />
-55-->D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:31:17-68
-55-->D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:31:25-66
+55-->E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:31:17-68
+55-->E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:31:25-66
 56
 57                <category android:name="android.intent.category.LAUNCHER" />
-57-->D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:32:17-76
-57-->D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:32:27-74
+57-->E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:32:17-76
+57-->E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:32:27-74
 58            </intent-filter>
 59        </activity>
 60        <!--
@@ -94,44 +94,44 @@
 62             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 63        -->
 64        <meta-data
-64-->D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:37:9-39:33
+64-->E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:37:9-39:33
 65            android:name="flutterEmbedding"
-65-->D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:38:13-44
+65-->E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:38:13-44
 66            android:value="2" />
-66-->D:\Android Projects\appetizer\android\app\src\main\AndroidManifest.xml:39:13-30
+66-->E:\Github\TasteAtlas\android\app\src\main\AndroidManifest.xml:39:13-30
 67
 68        <service
-68-->[:firebase_storage] D:\Android Projects\appetizer\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+68-->[:firebase_storage] E:\Github\TasteAtlas\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 69            android:name="com.google.firebase.components.ComponentDiscoveryService"
-69-->[:firebase_storage] D:\Android Projects\appetizer\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+69-->[:firebase_storage] E:\Github\TasteAtlas\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
 70            android:directBootAware="true"
-70-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\95871d21aba67905f833bb9c4a299304\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
+70-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d95c9f10153eb1befd18db5fe99415ed\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
 71            android:exported="false" >
 71-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\022a83eebee0e1acdb4f29bb61ab1a32\firebase-auth-19.4.0\AndroidManifest.xml:35:13-37
 72            <meta-data
-72-->[:firebase_storage] D:\Android Projects\appetizer\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+72-->[:firebase_storage] E:\Github\TasteAtlas\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 73                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
-73-->[:firebase_storage] D:\Android Projects\appetizer\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
+73-->[:firebase_storage] E:\Github\TasteAtlas\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
 74                android:value="com.google.firebase.components.ComponentRegistrar" />
-74-->[:firebase_storage] D:\Android Projects\appetizer\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+74-->[:firebase_storage] E:\Github\TasteAtlas\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 75            <meta-data
-75-->[:cloud_firestore] D:\Android Projects\appetizer\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+75-->[:cloud_firestore] E:\Github\TasteAtlas\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 76                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-76-->[:cloud_firestore] D:\Android Projects\appetizer\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+76-->[:cloud_firestore] E:\Github\TasteAtlas\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
 77                android:value="com.google.firebase.components.ComponentRegistrar" />
-77-->[:cloud_firestore] D:\Android Projects\appetizer\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+77-->[:cloud_firestore] E:\Github\TasteAtlas\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 78            <meta-data
-78-->[:firebase_auth] D:\Android Projects\appetizer\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+78-->[:firebase_auth] E:\Github\TasteAtlas\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 79                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-79-->[:firebase_auth] D:\Android Projects\appetizer\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+79-->[:firebase_auth] E:\Github\TasteAtlas\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
 80                android:value="com.google.firebase.components.ComponentRegistrar" />
-80-->[:firebase_auth] D:\Android Projects\appetizer\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+80-->[:firebase_auth] E:\Github\TasteAtlas\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 81            <meta-data
-81-->[:firebase_core] D:\Android Projects\appetizer\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+81-->[:firebase_core] E:\Github\TasteAtlas\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 82                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-82-->[:firebase_core] D:\Android Projects\appetizer\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+82-->[:firebase_core] E:\Github\TasteAtlas\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
 83                android:value="com.google.firebase.components.ComponentRegistrar" />
-83-->[:firebase_core] D:\Android Projects\appetizer\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+83-->[:firebase_core] E:\Github\TasteAtlas\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 84            <meta-data
 84-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\022a83eebee0e1acdb4f29bb61ab1a32\firebase-auth-19.4.0\AndroidManifest.xml:36:13-38:85
 85                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
@@ -139,11 +139,11 @@
 86                android:value="com.google.firebase.components.ComponentRegistrar" />
 86-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\022a83eebee0e1acdb4f29bb61ab1a32\firebase-auth-19.4.0\AndroidManifest.xml:38:17-82
 87            <meta-data
-87-->[com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\9401b9fa0cc9c629fa1014daed9daceb\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:20:13-22:85
+87-->[com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d6fac13d8c236149af285630dd448799\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:20:13-22:85
 88                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-88-->[com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\9401b9fa0cc9c629fa1014daed9daceb\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:21:17-111
+88-->[com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d6fac13d8c236149af285630dd448799\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:21:17-111
 89                android:value="com.google.firebase.components.ComponentRegistrar" />
-89-->[com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\9401b9fa0cc9c629fa1014daed9daceb\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:22:17-82
+89-->[com.google.firebase:firebase-firestore:21.7.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d6fac13d8c236149af285630dd448799\jetified-firebase-firestore-21.7.1\AndroidManifest.xml:22:17-82
 90            <meta-data
 90-->[com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\98fae2a3bdd762fd65c348a3731607f6\play-services-measurement-api-17.6.0\AndroidManifest.xml:30:13-32:85
 91                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
@@ -165,13 +165,13 @@
 99        </service>
 100
 101        <activity
-101-->[:url_launcher] D:\Android Projects\appetizer\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+101-->[:url_launcher] E:\Github\TasteAtlas\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
 102            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-102-->[:url_launcher] D:\Android Projects\appetizer\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+102-->[:url_launcher] E:\Github\TasteAtlas\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
 103            android:exported="false"
-103-->[:url_launcher] D:\Android Projects\appetizer\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+103-->[:url_launcher] E:\Github\TasteAtlas\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
 104            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-104-->[:url_launcher] D:\Android Projects\appetizer\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+104-->[:url_launcher] E:\Github\TasteAtlas\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
 105        <activity
 105-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\022a83eebee0e1acdb4f29bb61ab1a32\firebase-auth-19.4.0\AndroidManifest.xml:24:9-31:50
 106            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
@@ -187,27 +187,27 @@
 111            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 111-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\022a83eebee0e1acdb4f29bb61ab1a32\firebase-auth-19.4.0\AndroidManifest.xml:30:13-72
 112        <activity
-112-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e78bb3ddbb62d446becb993898ffe984\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+112-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\f44c5623fdfb5aa0e511c28990204f90\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
 113            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-113-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e78bb3ddbb62d446becb993898ffe984\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+113-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\f44c5623fdfb5aa0e511c28990204f90\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
 114            android:excludeFromRecents="true"
-114-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e78bb3ddbb62d446becb993898ffe984\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+114-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\f44c5623fdfb5aa0e511c28990204f90\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
 115            android:exported="false"
-115-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e78bb3ddbb62d446becb993898ffe984\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+115-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\f44c5623fdfb5aa0e511c28990204f90\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
 116            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-116-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e78bb3ddbb62d446becb993898ffe984\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+116-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\f44c5623fdfb5aa0e511c28990204f90\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
 117        <!--
 118            Service handling Google Sign-In user revocation. For apps that do not integrate with
 119            Google Sign-In, this service will never be started.
 120        -->
 121        <service
-121-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e78bb3ddbb62d446becb993898ffe984\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+121-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\f44c5623fdfb5aa0e511c28990204f90\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
 122            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-122-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e78bb3ddbb62d446becb993898ffe984\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+122-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\f44c5623fdfb5aa0e511c28990204f90\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
 123            android:exported="true"
-123-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e78bb3ddbb62d446becb993898ffe984\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+123-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\f44c5623fdfb5aa0e511c28990204f90\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
 124            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-124-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\e78bb3ddbb62d446becb993898ffe984\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+124-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\f44c5623fdfb5aa0e511c28990204f90\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
 125
 126        <receiver
 126-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\a8b806c2ca4ea066a6a2f472df9c62db\play-services-measurement-17.6.0\AndroidManifest.xml:29:9-33:20
@@ -239,17 +239,17 @@
 140-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\a8b806c2ca4ea066a6a2f472df9c62db\play-services-measurement-17.6.0\AndroidManifest.xml:43:13-69
 141
 142        <provider
-142-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\95871d21aba67905f833bb9c4a299304\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
+142-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d95c9f10153eb1befd18db5fe99415ed\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
 143            android:name="com.google.firebase.provider.FirebaseInitProvider"
-143-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\95871d21aba67905f833bb9c4a299304\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
+143-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d95c9f10153eb1befd18db5fe99415ed\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
 144            android:authorities="com.example.appetizer.firebaseinitprovider"
-144-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\95871d21aba67905f833bb9c4a299304\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
+144-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d95c9f10153eb1befd18db5fe99415ed\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
 145            android:directBootAware="true"
-145-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\95871d21aba67905f833bb9c4a299304\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
+145-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d95c9f10153eb1befd18db5fe99415ed\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
 146            android:exported="false"
-146-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\95871d21aba67905f833bb9c4a299304\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
+146-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d95c9f10153eb1befd18db5fe99415ed\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
 147            android:initOrder="100" />
-147-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\95871d21aba67905f833bb9c4a299304\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
+147-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\d95c9f10153eb1befd18db5fe99415ed\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
 148
 149        <activity
 149-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Deepu Singla\.gradle\caches\transforms-2\files-2.1\35c6271043b1425f98f4c3536d04e924\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75

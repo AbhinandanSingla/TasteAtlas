@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Android Projects\\appetizer\\build\\firebase_core\\intermediates\\res\\merged\\release\\values-v21\\values-v21.xml",
+            "outputFile": "E:\\Github\\TasteAtlas\\build\\firebase_core\\intermediates\\res\\merged\\release\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\fdb7f764bae631c34cad86862de08b65\\core-1.1.0\\res\\values-v21\\values-v21.xml",
@@ -17,7 +17,7 @@
             ]
         },
         {
-            "outputFile": "D:\\Android Projects\\appetizer\\build\\firebase_core\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "E:\\Github\\TasteAtlas\\build\\firebase_core\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Deepu Singla\\.gradle\\caches\\transforms-2\\files-2.1\\fdb7f764bae631c34cad86862de08b65\\core-1.1.0\\res\\values-v21\\values-v21.xml",

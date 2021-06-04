@@ -1,10 +1,10 @@
-#Wed Nov 25 13:23:30 IST 2020
+#Wed May 19 17:04:54 IST 2021
+base.2=E\:\\Github\\TasteAtlas\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes3.dex
 path.2=classes3.dex
+base.1=E\:\\Github\\TasteAtlas\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes2.dex
 path.1=classes2.dex
-path.0=classes.dex
+base.0=E\:\\Github\\TasteAtlas\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.2=D\:\\Android Projects\\appetizer\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes3.dex
-base.1=D\:\\Android Projects\\appetizer\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes2.dex
-base.0=D\:\\Android Projects\\appetizer\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex

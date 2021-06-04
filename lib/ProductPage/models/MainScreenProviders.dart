@@ -10,7 +10,6 @@ import 'package:flutter/cupertino.dart';
 class MainScreenProvider extends ChangeNotifier {
   FirebaseFirestore _firestore = FirebaseFirestore.instance;
   StorageReference _reference = FirebaseStorage.instance.ref();
-
   List category = [];
   List products = [];
   List ImagesUrl = [];
@@ -37,7 +36,12 @@ class MainScreenProvider extends ChangeNotifier {
 
     categoryData = abc();
     GridContainer = convertCategory('Burger');
-    dataLoaded = false;
+
+    Future.delayed(Duration(seconds: 4)).then((value) {
+      dataLoaded = false;
+      notifyListeners();
+    });
+    // dataLoaded = false;
   }
 
   getProducts() async {
@@ -181,4 +185,7 @@ class MainScreenProvider extends ChangeNotifier {
   abc() async {
     return category;
   }
+
 }
+
+

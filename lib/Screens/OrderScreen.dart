@@ -152,7 +152,7 @@ class _OrderScreenState extends State<OrderScreen> {
                                 } else {
                                   Scaffold.of(context).showSnackBar(SnackBar(
                                     content: Text(
-                                        'Please your order will be ready soon '),
+                                        'Please wait your order will be ready soon '),
                                   ));
                                 }
                               },

@@ -107,7 +107,7 @@ class _ProductPageState extends State<ProductPage> {
                         RichText(
                           text: TextSpan(children: [
                             TextSpan(
-                              text: '\$',
+                              text: 'Rs',
                               style: TextStyle(
                                   color: Colors.black,
                                   fontSize: 15,

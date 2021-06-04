@@ -29,13 +29,11 @@ class _MainScreenState extends State<MainScreen> {
                 switch (value) {
                   case ConnectionResult.Working:
                     ConnectionCheck = false;
-
                     break;
                   case ConnectionResult.Offline:
                     ConnectionCheck = true;
-
                     break;
-                  default:
+                  default:  
                     ConnectionCheck = false;
                 }
                 return Visibility(

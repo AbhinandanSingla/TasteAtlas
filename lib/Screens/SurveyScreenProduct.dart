@@ -72,7 +72,7 @@ class _SurveyProductScreenState extends State<SurveyProductScreen> {
                       borderRadius: BorderRadius.circular(20),
                       gradient: LinearGradient(
                         colors: [
-                          Colors.black.withOpacity(0.4),
+                          Colors.black.withOpacity(0.3),
                           Colors.white.withOpacity(0.0)
                         ],
                         begin: Alignment.bottomCenter,
